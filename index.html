@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Northwind Traders</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/lumen/bootstrap.min.css" integrity="sha384-GzaBcW6yPIfhF+6VpKMjxbTx6tvR/yRd/yJub90CqoIn2Tz4rRXlSpTFYMKHCifX" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+
+    <script src="services/todos_service.js"></script>
+    <script src="scripts/index.js"></script>
+    
+</head>
+<body>
+
+    <main class="container mt-4">
+
+        <h1>Todos List</h1>
+        <hr>
+        <button class="btn btn-outline-danger m-3" onclick="addNewClick()">Add New</button>
+        <table class="table table-striped table-hover">
+            <thead>
+                <th>id</th>
+                <th>UserId</th>
+                <th>title</th>
+                
+                <th>completed</th>
+                <th></th>
+            </thead>
+            <tbody id="todosRows"></tbody>
+        </table>
+
+    </main>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

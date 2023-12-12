@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Todo</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/lumen/bootstrap.min.css" integrity="sha384-GzaBcW6yPIfhF+6VpKMjxbTx6tvR/yRd/yJub90CqoIn2Tz4rRXlSpTFYMKHCifX" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+
+    <script src="services/todos_service.js"></script>
+    <script src="scripts/edit.js"></script>
+    <!-- <script src="services/todos_service.js"></script> -->
+</head>
+<body>
+
+    <main class="container mt-4">
+        <form>
+            <div class="form-group">
+                <label for="todoId" class="form-label mt-2">Todo Id:</label>
+                <input type="text" class="form-control" id="todoId">
+            </div>
+            <div class="form-group">
+                <label for="userId" class="form-label mt-2">UserID:</label>
+                <input type="text" class="form-control" id="userId"  placeholder="Enter userID">
+            </div>
+            <div class="form-group">
+                <label for="todotitle" class="form-label mt-2">Todo Title:</label>
+                <input type="text" class="form-control" id="todotitle"  placeholder="Enter a Description">
+            </div>
+            <div class="form-group">
+                <label for="todoCompleted" class="form-label mt-2">completed:</label>
+                <input type="text" class="form-control" id="todoCompleted"  placeholder="Enter completed or Not">
+            </div>
+            <button id="saveButton" class="btn btn-primary">Save</button>
+        </form>
+    </main>
+
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
